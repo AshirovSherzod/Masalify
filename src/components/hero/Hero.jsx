@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className=" h-[700px] flex justify-center items-center bg-[#333]">
-      <div className="container mx-auto max-w-[1240px] flex items-center justify-between">
+    <section className=" h-[700px] flex justify-center items-center bg-[#1a1a1a]">
+      <div className="container mx-auto  flex items-center justify-between">
         <div className="w-[450px] h-[350px] flex items-center justify-center bg-[white] rounded-[30px] rotate-[-10deg]">
           <div className="w-[430px] h-[330px] flex flex-row bg-[#f6f6f6] rounded-[30px]">
             <div className="w-[100px] h-[330px] flex flex-col gap-[5px] rounded-l-[30px]  py-[20px] px-[5px] border-r-[1px] border-[#bdb7b7]">

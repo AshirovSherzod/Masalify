@@ -11,7 +11,7 @@ function SignUp() {
     <>
       <section
         style={{ height: "calc(100vh - 90px)" }}
-        className=" h-[85vh] flex justify-center pt-[50px] bg-[#f3f3f3]"
+        className=" h-[85vh] flex justify-center pt-[50px]"
       >
         <form
           className="w-[400px] h-[550px] flex flex-col gap-[40px] bg-[white] p-[30px]"

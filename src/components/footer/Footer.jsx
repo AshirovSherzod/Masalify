@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-[#333] text-white">
-        <nav className="container mx-auto max-w-[1240px] flex justify-between items-center h-[100px]">
+    <footer className="bg-[#1a1a1a] text-white">
+        <nav className="container mx-auto flex justify-between items-center h-[100px]">
           <h4>Copyright © 2025 Masalify</h4>
 
           <ul className="flex gap-[20px] text-[14px]">

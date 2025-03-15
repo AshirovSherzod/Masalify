@@ -3,7 +3,8 @@ import { FaPeopleGroup } from "react-icons/fa6";
 
 const Company = () => {
   return (
-    <section className="container mx-auto max-w-[1240px] flex flex-row justify-between gap-[40px] py-[100px]">
+    <section className=" flex flex-row justify-between gap-[40px] py-[100px] bg-white">
+      <div className="container mx-auto flex justify-between gap-[40px]">
       <div className="w-[50%] flex flex-col gap-[40px]">
         <div className="flex flex-row items-center">
           <div className="w-[65px] h-[65px] flex items-center justify-center text-[16px] rounded-[40px] bg-[#259AF3]">
@@ -56,6 +57,7 @@ const Company = () => {
         <button className="w-[200px] text-left text-[#259AF3]">
           Business Opportunities
         </button>
+      </div>
       </div>
     </section>
   );

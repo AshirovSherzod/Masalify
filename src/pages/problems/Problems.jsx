@@ -1,9 +1,10 @@
-import React from "react";
-import CodeEditor from "../../components/codeEditor/CodeEditor";
+import React from "react";  
+import { Outlet } from "react-router-dom";
 
 const Problems = () => {
   return (
     <>
+      <Outlet/>
     </>
   );
 };

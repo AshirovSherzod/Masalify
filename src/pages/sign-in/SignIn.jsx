@@ -10,10 +10,10 @@ function SignIn() {
     <>
       <section
         style={{ height: "calc(100vh - 90px)" }}
-        className=" h-[85vh] flex justify-center pt-[50px] bg-[#f3f3f3]"
+        className=" h-[85vh] flex justify-center pt-[50px]"
       >
         <form
-          className="w-[400px] h-[450px] flex flex-col gap-[40px] bg-[white] p-[30px]"
+          className="w-[400px] h-[450px] flex flex-col gap-[40px] bg-[white] p-[30px] shadow-md rounded-[5px]"
           action=""
         >
           <h2 className="text-center text-[24px]">Masalify</h2>
@@ -55,7 +55,7 @@ function SignIn() {
               <p className="text-[14px] hover:text-blue-500 hover:cursor-pointer">
                 Forgot Password?
               </p>
-              <Link to={"/sign-up"} className="text-[14px] hover:text-blue-500 hover:cursor-pointer">
+              <Link to={"/sign-up "} className="text-[14px] hover:text-blue-500 hover:cursor-pointer">
                 Sign Up
               </Link>
             </div>
